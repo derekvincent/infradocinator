@@ -1,0 +1,86 @@
+{
+    "Vpcs": [
+        {
+            "CidrBlock": "10.100.4.0/22",
+            "DhcpOptionsId": "dopt-0615b4ba49256975f",
+            "State": "available",
+            "VpcId": "vpc-0ba5fd3e09b9dbcc8",
+            "OwnerId": "375411808300",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-03cf42979a7e3c956",
+                    "CidrBlock": "10.100.4.0/22",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "ftso:environment",
+                    "Value": "qa"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-qa-vpc"
+                },
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "10.100.0.0/22",
+            "DhcpOptionsId": "dopt-06ab37303a034b7f7",
+            "State": "available",
+            "VpcId": "vpc-0dee12dfb92cfa7a2",
+            "OwnerId": "375411808300",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-095c7a4535d800688",
+                    "CidrBlock": "10.100.0.0/22",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-dev-vpc"
+                },
+                {
+                    "Key": "ftso:environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                }
+            ]
+        },
+        {
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-82ab19f8",
+            "State": "available",
+            "VpcId": "vpc-983e2fe2",
+            "OwnerId": "375411808300",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-f8ce2c97",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true
+        }
+    ]
+}

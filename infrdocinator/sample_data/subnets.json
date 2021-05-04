@@ -1,0 +1,340 @@
+{
+    "Subnets": [
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az1",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.0.0/20",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-f3f63395",
+            "VpcId": "vpc-983e2fe2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-f3f63395"
+        },
+        {
+            "AvailabilityZone": "us-east-1d",
+            "AvailabilityZoneId": "use1-az6",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.32.0/20",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-2763a578",
+            "VpcId": "vpc-983e2fe2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-2763a578"
+        },
+        {
+            "AvailabilityZone": "us-east-1c",
+            "AvailabilityZoneId": "use1-az4",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.16.0/20",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-602ebb2d",
+            "VpcId": "vpc-983e2fe2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-602ebb2d"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az1",
+            "AvailableIpAddressCount": 53,
+            "CidrBlock": "10.100.0.0/26",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-030e726dd570b36b8",
+            "VpcId": "vpc-0dee12dfb92cfa7a2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "ftso:environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-dev-priv-1a-sn"
+                },
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-030e726dd570b36b8"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az2",
+            "AvailableIpAddressCount": 26,
+            "CidrBlock": "10.100.0.224/27",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0f1e8d975c805121a",
+            "VpcId": "vpc-0dee12dfb92cfa7a2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-dev-pub-1b-sn"
+                },
+                {
+                    "Key": "ftso:environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-0f1e8d975c805121a"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az1",
+            "AvailableIpAddressCount": 26,
+            "CidrBlock": "10.100.0.192/27",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-08bf1d0d2c95b4e41",
+            "VpcId": "vpc-0dee12dfb92cfa7a2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "ftso:environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-dev-pub-1a-sn"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-08bf1d0d2c95b4e41"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az1",
+            "AvailableIpAddressCount": 52,
+            "CidrBlock": "10.100.4.0/26",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0c20579bda8f6a364",
+            "VpcId": "vpc-0ba5fd3e09b9dbcc8",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-qa-priv-1a-sn"
+                },
+                {
+                    "Key": "ftso:environment",
+                    "Value": "qa"
+                },
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-0c20579bda8f6a364"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az2",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.80.0/20",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-aa96558b",
+            "VpcId": "vpc-983e2fe2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-aa96558b"
+        },
+        {
+            "AvailabilityZone": "us-east-1a",
+            "AvailabilityZoneId": "use1-az1",
+            "AvailableIpAddressCount": 26,
+            "CidrBlock": "10.100.4.192/27",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-02caa3241671f30af",
+            "VpcId": "vpc-0ba5fd3e09b9dbcc8",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                },
+                {
+                    "Key": "ftso:environment",
+                    "Value": "qa"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-qa-pub-1a-sn"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-02caa3241671f30af"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az2",
+            "AvailableIpAddressCount": 26,
+            "CidrBlock": "10.100.4.224/27",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0df44a9f9e0a72d21",
+            "VpcId": "vpc-0ba5fd3e09b9dbcc8",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-qa-pub-1b-sn"
+                },
+                {
+                    "Key": "ftso:environment",
+                    "Value": "qa"
+                },
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-0df44a9f9e0a72d21"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az2",
+            "AvailableIpAddressCount": 59,
+            "CidrBlock": "10.100.0.64/26",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0130a4019e9db8b2d",
+            "VpcId": "vpc-0dee12dfb92cfa7a2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "ftso:environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-dev-priv-1b-sn"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-0130a4019e9db8b2d"
+        },
+        {
+            "AvailabilityZone": "us-east-1e",
+            "AvailabilityZoneId": "use1-az3",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.48.0/20",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-3179710f",
+            "VpcId": "vpc-983e2fe2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-3179710f"
+        },
+        {
+            "AvailabilityZone": "us-east-1f",
+            "AvailabilityZoneId": "use1-az5",
+            "AvailableIpAddressCount": 4091,
+            "CidrBlock": "172.31.64.0/20",
+            "DefaultForAz": true,
+            "MapPublicIpOnLaunch": true,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-0a378804",
+            "VpcId": "vpc-983e2fe2",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-0a378804"
+        },
+        {
+            "AvailabilityZone": "us-east-1b",
+            "AvailabilityZoneId": "use1-az2",
+            "AvailableIpAddressCount": 59,
+            "CidrBlock": "10.100.4.64/26",
+            "DefaultForAz": false,
+            "MapPublicIpOnLaunch": false,
+            "MapCustomerOwnedIpOnLaunch": false,
+            "State": "available",
+            "SubnetId": "subnet-00ecf98d240c9e1b9",
+            "VpcId": "vpc-0ba5fd3e09b9dbcc8",
+            "OwnerId": "375411808300",
+            "AssignIpv6AddressOnCreation": false,
+            "Ipv6CidrBlockAssociationSet": [],
+            "Tags": [
+                {
+                    "Key": "ftso:environment",
+                    "Value": "qa"
+                },
+                {
+                    "Key": "ftso:customer",
+                    "Value": "FortisOntario"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "ftso-sap-qa-priv-1b-sn"
+                }
+            ],
+            "SubnetArn": "arn:aws:ec2:us-east-1:375411808300:subnet/subnet-00ecf98d240c9e1b9"
+        }
+    ]
+}
