@@ -6,7 +6,7 @@ The target of this tool is to target known cloud infrastrucutre (AWS for now) an
 
 ## TODO 
 
-  [] Networking 
-    [] VPC
-    [] Subnets
+    [] Networking 
+        [] VPC
+        [] Subnets
 
